@@ -1,5 +1,70 @@
-#color-block {
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.main-content {
+    padding: 0 40px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    background-color: burlywood;
     height: 100px;
-    width: 100px;
+}
+
+.nav-bar {
+    font-size: 20px;
+}
+
+.nav-item {
+    margin-right: 12px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+.main-content {
+    text-align: center;
+    margin: auto;
+}
+
+#btn {
+    height: 50px;
+    width: 50px;
+}
+
+#url-text {
+    margin-bottom: 4px;
+}
+
+#result-text {
+    margin-top: 10px;
+}
+
+#input-text {
+    margin-bottom: 4px;
+}
+
+#hex-color-input {
+    margin-bottom: 8px;
+}
+
+#color-block {
+    height: 150px;
+    width: 150px;
     background-color: black;
+    margin: auto;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;
+    text-align: center;
+    background-color: burlywood;
 }
