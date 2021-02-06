@@ -16,20 +16,23 @@ header {
 
 .nav-bar {
     font-size: 20px;
+    padding: 35px;
 }
 
 .nav-item {
     margin-right: 12px;
     color: black;
     text-decoration: none;
-    border: 2px solid;
-    padding: 5px;
     background-color: aliceblue;
+    border: 2px solid black;
+    padding: 2px;
+    font-size: 25px;
 }
 
 .main-content {
     text-align: center;
     margin: auto;
+    padding-top: 80px;
 }
 
 #btn {
@@ -67,4 +70,5 @@ header {
     height: 3.5rem;
     text-align: center;
     background-color: burlywood;
+    font-size: 17px;
 }
